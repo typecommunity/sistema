@@ -50,10 +50,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.fancyBackground,
     '& .MuiButton-outlinedPrimary': {
       color: theme.mode === 'light' ? '#FFF' : '#FFF',
-      backgroundColor: theme.mode === 'light' ? '#2DDD7F' : '#1c1c1c',
+      backgroundColor: theme.mode === 'light' ? '#1E47C1' : '#1c1c1c',
     },
     '& .MuiTab-textColorPrimary.Mui-selected': {
-      color: theme.mode === 'light' ? '#2DDD7F' : '#FFF',
+      color: theme.mode === 'light' ? '#1E47C1' : '#FFF',
     }
   },
   avatar: {
